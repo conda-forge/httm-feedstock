@@ -1,6 +1,6 @@
 context:
   name: httm
-  version: "0.49.6"
+  version: "0.49.7"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/kimono-koans/${{ name }}/archive/${{ version }}.tar.gz
-  sha256: ffb2f74374bdcfd1bc969b6761b61c19e2fe44042c6445f61393c3aed0241b8b
+  sha256: 6101174cc7938f00223c340f9ff1b790593c4b5068dffe15ea63dfff9874ec3e
 
 build:
   skip: win
